@@ -1,0 +1,6 @@
+flask
+openai
+boto3
+python-dotenv
+fpdf
+zappa

@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# macOS metadata
+.DS_Store
+
+# Logs and local settings
+*.log
+.env
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.pid
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Zappa files
+.zappa/
+zappa_settings.json
+
+# AWS credential files (just in case you accidentally copy them here)
+*.pem
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Misc
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
